@@ -1,0 +1,121 @@
+/* Common styles for all screen sizes */
+
+/* Styles for phones (up to 768px width) */
+@media only screen and (max-width: 844px) {
+    .design{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
+  /* Styles for tablets/iPads (768px to 1024px width) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* Adjust styles for tablets/iPads here */
+  }
+  
+  /* Styles for laptops/desktops (min-width: 1024px) */
+  @media (min-width: 1024px) {
+    /* Adjust styles for laptops/desktops here */
+  }
+  
+.container1{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;   
+    margin: 0 0 ;
+    color: rgb(128, 128, 128);
+}
+a{
+    text-decoration: none;
+    color: #526D82;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    margin: 0 10px;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+.presentation{
+    display: flex;
+    background-color: #F6F6F6;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+.emri{
+    font-family: "SF Pro Display","SF Pro Icons", "Helvetica Neue" , Helvetica ,Arial,sans-serif;
+    font-size: 2rem;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+h1{
+    margin: 0;
+}
+.prezantimi{
+    padding-left: 25% ;
+    padding-right: 25% ;
+    text-align: center;
+    font-size: 13pt;
+}
+.projektet{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.icon-link{
+    color: blue;
+}.bi{
+    color: blue;
+}
+.overflow-hidden{
+    margin: 0;
+}
+.resume-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: "SF Pro Display","SF Pro Icons", "Helvetica Neue" , Helvetica ,Arial,sans-serif;
+}
+h2{
+    font-size: 3rem;
+}
+.design{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25% ;
+    padding-right: 25% ;
+    margin-top: 50px;
+}
+.design-p{
+    margin-left: 25px;
+}
+.typing{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    padding-left: 25% ;
+    padding-right: 25% ;
+}
+.typing-p{
+    margin-right: 25px;
+}
+.creative{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    padding-left: 25% ;
+    padding-right: 25% ;
+}
+.creative-p{
+    margin-left: 25px;
+}
+.bi{
+    fill: gray;
+}
